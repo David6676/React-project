@@ -1,0 +1,43 @@
+.ol>h1 {
+    height: 370px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: gabriola;
+    letter-spacing: 2px;
+    color: rgb(168, 2, 201);
+}
+
+.ol {
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.ol ul {
+    height: 500px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ol li {
+    list-style: none;
+}
+
+.ol a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: fantasy;
+    color: rgb(17, 179, 117);
+}
+
+.ol a:hover {
+    color: rgb(255, 0, 106);
+}

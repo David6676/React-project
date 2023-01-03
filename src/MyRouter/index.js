@@ -23,4 +23,5 @@ function MyRouter() {
         </BrowserRouter>
     )
 }
+
 export default MyRouter

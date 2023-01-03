@@ -29,4 +29,5 @@ function Category() {
         </div>
     )
 }
+
 export default Category

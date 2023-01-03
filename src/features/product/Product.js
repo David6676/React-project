@@ -10,12 +10,12 @@ function Product() {
     const dispatch = useDispatch()
 
     let { name } = useParams()
-    
+
     useEffect(() => {
         dispatch(fetchProductData(name))
     }, [])
-    
-    
+
+
     return (
         <>
             <input type="text"
@@ -36,4 +36,5 @@ function Product() {
         </>
     )
 }
+
 export default Product
